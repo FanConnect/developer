@@ -1,0 +1,41 @@
+a,
+.icon,
+.btn,
+.btn:hover {
+  color: #2b8acb;
+}
+
+.main-header {
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 2em;
+  h2 {
+    margin-bottom: 0;
+  }
+}
+
+.main-content {
+  h1 {
+    border-bottom: 1px solid #eeebee;
+    font-size: 30px !important;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+}
+
+.language-js {
+  .highlight {
+    background-color: rgb(30, 30, 30);
+    code {
+      font-size: 0.85em;
+      font-family: monospace;
+      span {
+        color: #9fd8ff;
+      }
+    }
+  }
+}
+
+.nav-list:last-child {
+  border-top: 1px solid #eeebee;
+}

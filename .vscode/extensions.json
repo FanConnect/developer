@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "github.vscode-pull-request-github",
+    "atlassian.atlascode",
+    "dbaeumer.vscode-eslint",
+    "mkhl.shfmt",
+    "timonwong.shellcheck"
+  ]
+}

@@ -1,0 +1,23 @@
+remote_theme: just-the-docs/just-the-docs
+title: FanConnect TV App Developer Guide
+description: Learn how to build your own apps for the FanConnect TV platform.
+logo: '/assets/img/logo.png'
+search_enabled: false
+
+callouts:
+  warning:
+    title: Warning
+    color: red
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+
+# External navigation links
+nav_external_links:
+  - title: FanConnect TV
+    url: https://fanconnect.tv
+
+  - title: FanConnect TV CMS
+    url: https://neo.fanconnect.tv
