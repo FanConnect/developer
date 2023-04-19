@@ -32,6 +32,6 @@ yarn start
 
 ---
 
-Explore our example Apps as you being your FanConnect TV App development journey!
+Explore our example Apps as you begin your FanConnect TV App development journey!
 
 [Example Apps](/example-apps){: .btn }
