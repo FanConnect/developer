@@ -14,7 +14,10 @@ callouts:
 
 # External navigation links
 nav_external_links:
-  - title: FanConnect TV
+  - title: FanConnect TV Developer
+    url: https://github.com/FanConnect/developer
+
+  - title: FanConnect TV Website
     url: https://fanconnect.tv
 
   - title: FanConnect TV CMS
