@@ -1,7 +1,7 @@
 ## Dad Joke App Example
 
 This App is a JavaScript/HTML App that retrieves a Dad Joke from
-[https://icanhazdadjoke.com/](icanhazdadjoke) every 20 seconds and displays it on the page.
+[icanhazdadjoke](https://icanhazdadjoke.com/) every 20 seconds and displays it on the page.
 
 ![Dad Joke App](../../docs/assets/img/dad-joke-app.png)
 
