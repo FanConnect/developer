@@ -6,12 +6,10 @@ search_enabled: false
 
 callouts:
   warning:
-    title: Warning
     color: red
   highlight:
     color: yellow
   important:
-    title: Important
     color: blue
 
 # External navigation links

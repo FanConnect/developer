@@ -7,5 +7,5 @@ nav_order: 3
 
 # App Lifecycle
 
-{: .highlight }
+{: .important }
 > Coming soon!

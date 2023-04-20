@@ -7,5 +7,5 @@ nav_order: 4
 
 # App SDK
 
-{: .highlight }
+{: .important }
 > Coming soon!
