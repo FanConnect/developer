@@ -15,7 +15,7 @@ sports and/or leagues.
 
 ## Apps
 
-Think of Apps as a website, running with the FanConnect TV platform. Any App displayed on a TV
+Think of Apps as a website, running on the FanConnect TV platform. Any App displayed on a TV
 screen powered by FanConnect TV is ultimately a combination of HTML, CSS, and Javascript.
 
 We've written Apps using vanilla Javascript, as well as [Preact](https://preactjs.com/). Many Apps
