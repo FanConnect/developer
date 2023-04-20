@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'IndustryBlack';
+  src: url('assets/fonts/Industry-Black.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fff;
+  font-family: IndustryBlack, Arial, Helvetica, sans-serif;
+  width: 1920px;
+  height: 1080px;
+  background-image: url(./assets/img/bg.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  height: 100%;
+  min-width: 75%;
+}
+
+#title {
+  position: absolute;
+  top: 585px;
+  left: 175px;
+  font-size: 100px;
+  text-transform: uppercase;
+  text-align: center;
+  opacity: 0;
+  animation-name: fade-in;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+  animation-delay: 250ms;
+}
+
+#sub-title {
+  position: absolute;
+  top: 715px;
+  left: 205px;
+  font-size: 100px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 36px;
+  text-transform: uppercase;
+  opacity: 0;
+  animation-name: fade-in;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+  animation-delay: 500ms;
+}
+
+#sponsor {
+  position: absolute;
+  top: 825px;
+  left: 300px;
+  opacity: 0;
+  animation-name: slide-right;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+}
+
+#qr-code {
+  position: absolute;
+  top: 210px;
+  left: 1095px;
+  opacity: 0;
+  animation-name: fade-in;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+  animation-delay: 500ms;
+}
+
+#qr-code img {
+  width: 700px;
+  height: 700px;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-right {
+  from {
+    opacity: 0;
+    margin-left: -100%;
+    transform: skew(50deg);
+  }
+  to {
+    opacity: 1;
+    margin-left: 0%;
+    transform: skew(0);
+  }
+}

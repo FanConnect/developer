@@ -1,7 +1,6 @@
-## Dad Joke App Example
+## Pizza Hut Menu App Example
 
-This App is a simple JavaScript/HTML App that retrieves a Dad Joke from
-[https://icanhazdadjoke.com/](icanhazdadjoke) every 20 seconds and displays it on the page.
+This App is a JavaScript/HTML App that resembles a Pizza Hut Menu.
 
 ### How to Use
 
