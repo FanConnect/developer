@@ -1,4 +1,4 @@
-async function fetchQuote() {
+const fetchQuote = async () => {
   try {
     const response = await fetch('https://icanhazdadjoke.com/', {
       headers: {
@@ -14,19 +14,19 @@ async function fetchQuote() {
     console.warn('Unable to load awesome dad jokes!');
     console.warn(err);
   }
-}
+};
 
-async function updateQuote() {
+const updateQuote = async () => {
   const quoteElement = document.querySelector('.quote');
   quoteElement.classList.remove('fade-in');
   const quoteText = await fetchQuote();
   quoteElement.textContent = quoteText;
   quoteElement.classList.add('fade-in');
-}
+};
 
-async function run() {
+const run = async () => {
   updateQuote();
   setInterval(updateQuote, 20 * 1000);
-}
+};
 
 run();

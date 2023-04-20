@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'SamsungSharpSansBold';
+  src: url('assets/fonts/SamsungSharpSans-Bold.ttf');
+}
+@font-face {
+  font-family: 'SamsungSharpSansMedium';
+  src: url('assets/fonts/SamsungSharpSans-Medium.ttf');
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: SamsungSharpSansBold, Arial, Helvetica, sans-serif;
+  width: 1920px;
+  height: 1080px;
+  background-image: url(./assets/img/bg.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  height: 100%;
+  min-width: 75%;
+}
+
+#menu-content {
+  position: absolute;
+  left: 50px;
+  top: 225px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.menu-group {
+  width: 600px;
+  border: 0px solid red;
+  margin-bottom: 25px;
+}
+
+#menu-left {
+  padding-right: 30px;
+  border-right: 3px solid #d7d7d7;
+}
+
+.menu-heading {
+  color: #d63144;
+  text-transform: uppercase;
+  font-size: 60px;
+}
+
+.menu-item-group {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  opacity: 0;
+}
+
+hr {
+  margin: 25px auto;
+  width: 90%;
+  background-color: #d7d7d7;
+  height: 3px;
+  border: 0;
+}
+
+.menu-item {
+  color: #76777b;
+  text-transform: uppercase;
+  font-size: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#menu-item-group-1-1 {
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-delay: 100ms;
+}
+
+#menu-item-group-1-2 {
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-delay: 200ms;
+}
+
+#menu-item-group-2 {
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-delay: 300ms;
+}
+
+#menu-item-group-3 {
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-delay: 400ms;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

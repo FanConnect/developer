@@ -1,5 +1,5 @@
-async function run() {
+const run = async () => {
   // do stuff
-}
+};
 
 run();
