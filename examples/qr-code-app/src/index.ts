@@ -1,10 +1,14 @@
-const generateQrCode = (): string => {
-  return 'https://api.qrserver.com/v1/create-qr-code/?size=700x700&color=ffffff&bgcolor=174b8b&margin=0&qzone=0&data=https://fanconnect.tv';
-};
+import { generateQrCode } from './qr-code';
 
 const start = (): void => {
   const qrCodeImg: HTMLImageElement = document.createElement('img');
-  qrCodeImg.src = generateQrCode();
+  qrCodeImg.src = generateQrCode({
+    width: 700,
+    height: 700,
+    color: 'ffffff',
+    bgColor: '174b8b',
+    url: 'https://fanconnect.tv/',
+  });
   document.getElementById('qr-code')?.appendChild(qrCodeImg);
 };
 
