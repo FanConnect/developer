@@ -3,7 +3,7 @@
 This App is a JavaScript/HTML App that retrieves a Dad Joke from
 [https://icanhazdadjoke.com/](icanhazdadjoke) every 20 seconds and displays it on the page.
 
-![Dad Joke App](/assets/img/dad-joke-app.png)
+![Dad Joke App](../../docs/assets/img/dad-joke-app.png)
 
 ### How to Use
 
