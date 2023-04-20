@@ -2,6 +2,8 @@
 
 This App is a JavaScript/HTML App that resembles a Pizza Hut Menu.
 
+![Pizza Hut Menu App](/assets/img/pizza-hut-menu-app.png)
+
 ### How to Use
 
 - Clone this repository
