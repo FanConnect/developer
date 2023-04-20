@@ -18,8 +18,8 @@ sports and/or leagues.
 Think of Apps as a website, running on the FanConnect TV platform. Any App displayed on a TV
 screen powered by FanConnect TV is ultimately a combination of HTML, CSS, and Javascript.
 
-We've written Apps using vanilla Javascript, as well as [Preact](https://preactjs.com/). Many Apps
-integrate to our own systems to meet data integration requirements (sports stats), or even 3rd party
+We've written Apps using vanilla Javascript, Typescript, and [Preact](https://preactjs.com/). Many Apps
+integrate to our own systems to meet data integration requirements (sports stats, etc.), or even 3rd party
 APIs (e.g. [Dad Joke App](https://github.com/fanconnect/developer/tree/main/examples/dad-joke-app)).
 
 ---
