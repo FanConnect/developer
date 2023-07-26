@@ -1,15 +1,15 @@
 {
-  "name": "examples",
+  "name": "boilerplate",
   "version": "1.0.0",
   "license": "UNLICENSED",
   "author": "FanConnect",
   "scripts": {
-    "start": "parcel ${INIT_CWD}/src/index.html",
-    "package": "cd ${INIT_CWD} && yarn build && yarn zip",
-    "build": "parcel build ${INIT_CWD}/src/index.html --dist-dir ${INIT_CWD}/dist",
-    "zip": "cd ${INIT_CWD} && zip ${INIT_CWD}/$(basename ${INIT_CWD}).zip -x '*.zip' -j -r ${INIT_CWD}/dist"
+    "build": "parcel build src/index.html --dist-dir ./dist",
+    "clean": "rm -rf ./dist",
+    "watch": "parcel watch src/index.html src/config.json --dist-dir ./dist --no-hmr"
   },
   "devDependencies": {
+    "@fanconnecttv/preview": "^0.2.1",
     "@parcel/core": "2.8.2",
     "@parcel/transformer-sass": "2.8.2",
     "parcel": "2.8.2",
