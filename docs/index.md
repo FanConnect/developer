@@ -7,24 +7,28 @@ nav_order: 1
 
 # Overview
 
-[FanConnect TV](https://fanconnect.tv) is a robust, fully-featured digital experience platform
-purpose-built for sports venues that includes pre-built content (we call them Apps) specific to
-sports and/or leagues.
+[FanConnect TV](https://fanconnect.tv) is a robust IPTV platform
+**purpose-built** for sports venues that includes professionaly designed, pre-built content.
 
-![FanConnect TV](/assets/img/fire-panel-content.png)
+While FanConnect does provide an impressive out-of-the-box content package, each venue and team is different, and will likely have custom content requirements in order to meet their specific needs.  
 
-## Apps
+This guide is intended to help get you started building custom content for the FanConnect TV Platform.
 
-Think of Apps as a website, running on the FanConnect TV platform. Any App displayed on a TV
-screen powered by FanConnect TV is ultimately a combination of HTML, CSS, and Javascript.
+![FanConnect TV](/assets/img/uga.png){: .tv }
 
-We've written Apps using vanilla Javascript, Typescript, and [Preact](https://preactjs.com/). Many Apps
-integrate to our own systems to meet data integration requirements (sports stats, etc.), or even 3rd party
-APIs (e.g. [Dad Joke App](https://github.com/fanconnect/developer/tree/main/examples/dad-joke-app)).
+# Prerequisites
 
+{: .important-title }
+> Pro Tip: Use [asdf](https://asdf-vm.com/) to manage versions.
+
+1. Clone the [FanConnect Developer](https://github.com/FanConnect/developer) repository
+   
+2. Install Node version >= 16.17.1
+   
+3. Install Yarn version >= 1.22.19
+   
 ---
 
-This guide is intended to help get you started with building custom Apps for the FanConnect TV
-Platform.
+Next, let's learn about FanConnect TV Templates!
 
-[Getting Started](/get-started){: .btn }
+[Templates](/templates){: .btn }

@@ -2,36 +2,23 @@
 layout: page
 title: 'Getting Started'
 permalink: /get-started
-nav_order: 2
+nav_order: 3
 ---
 
 # Getting Started
 
-## 1. Think of an App
+## 1. Start from the Boilerplate Template
 
-Have an idea for an App?  Great!  Apps come in many different shapes and sizes, for example we have Apps for FanConnect TV that are landscape (16x9) and some that are portait.  
+If you're ready to get started we recommend cloning this repository and copying the [Javascript Boilerplate Template](https://github.com/fanconnect/developer/tree/main/examples/js/boilerplate) and/or the [Preact Boilerplate Template](https://github.com/fanconnect/developer/tree/main/examples/preact/boilerplate) to your own folder.
 
-If you don't have an idea yet, that's ok!  You can always start from our example [Dad Joke App](https://github.com/fanconnect/developer/tree/main/examples/dad-joke-app) and customize it.
+## 2. Write Code
 
-## 2. Start from the Boilerplate App
+Once you have a folder for your custom Template, open it in your favorite editor (we prefer [VS Code](https://code.visualstudio.com/)).
 
-If you're ready to get started we recommended cloning this repository and copying the [Boilerplate App](https://github.com/fanconnect/developer/tree/main/examples/boilerplate-app) to your custom App directory.
-
-## 3. Write Code
-
-Once you have a directory for your custom App, bring it up in your favorite editor, [VS Code](https://code.visualstudio.com/) of course ;), and code away!
-
-To preview your changes you will need to run...
-
-```js
-yarn (first time only)
-yarn start
-```
-
-...and open your browser to [http://localhost:1234/](http://localhost:1234/).
+To preview your Template see [FanConnect Template Preview](/templates#preview).
 
 ---
 
-Explore our example Apps as you begin your FanConnect TV App development journey!
+Explore the example templates!
 
-[Example Apps](/example-apps){: .btn }
+[Examples](/examples){: .btn }
