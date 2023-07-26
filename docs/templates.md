@@ -1,23 +1,31 @@
 ---
 layout: page
-title: 'Templates'
+title: 'Understanding Templates'
 permalink: /templates
-nav_order: 2
+nav_order: 4
 ---
 
 # Templates
 
 FanConnect provides many templates out-of-the-box.  Templates are pre-designed blueprints that serve as a starting point for creating new content.  
 
-Templates are a combination of HTML, CSS, and Javascript.  We've written Templates using vanilla Javascript, Typescript, and [Preact](https://preactjs.com/), a lightweight alternative to React.
+Templates are a combination of HTML, CSS, and Javascript.  We've written Templates using vanilla Javascript, Typescript, and [Preact](https://preactjs.com/), a lightweight alternative to React.  We have provided examples of both [Javascript](https://github.com/fanconnect/developer/tree/main/examples/javascript) and [Preact](https://github.com/fanconnect/developer/tree/main/examples/preact) Templates.
 
 ## Animation
-Many of our Templates use animation, specifically CSS animations.  We do not use Javascript libraries for animation, and **highly recommend** you do the same.  One of our favorite CSS animation libraries is [animate.css](https://animate.style/).
+Most of our Templates use animation, specifically [CSS animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations).  We do not use Javascript libraries for animation, and **highly recommend** you do the same.  One of our favorite CSS animation libraries is [animate.css](https://animate.style/).
+
+## Build
+Templates are bundled with [Parcel](https://parceljs.org/).  Each Template's `package.json` already includes the appropriate development dependencies.
+
+To build your Template run the following:
+```shell
+yarn build
+```
 
 ## Code
 Templates are HTML, CSS, and Javascript.  It's up to you to decide how you want to develop your Template.  If you're comfortable using [Preact](https://preactjs.com/), then great.  If not, that's ok you can use Javascript as well.
 
-We have included [examples](https://github.com/fanconnect/developer/tree/main/examples/) of both.
+We have provided examples of both [Javascript](https://github.com/fanconnect/developer/tree/main/examples/javascript) and [Preact](https://github.com/fanconnect/developer/tree/main/examples/preact) Templates.
 
 ## Configuration
 
@@ -131,6 +139,6 @@ yarn preview
 ```
 ---
 
-Now that you understand how Templates work, let's jump in!
+Now that you understand how Templates work, run the examples!
 
-[Getting Started](/get-started){: .btn }
+[Examples](/examples){: .btn }

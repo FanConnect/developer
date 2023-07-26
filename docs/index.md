@@ -10,25 +10,14 @@ nav_order: 1
 [FanConnect TV](https://fanconnect.tv) is a robust IPTV platform
 **purpose-built** for sports venues that includes professionaly designed, pre-built content.
 
-While FanConnect does provide an impressive out-of-the-box content package, each venue and team is different, and will likely have custom content requirements in order to meet their specific needs.  
+Content on the FanConnect TV platform is a combination of HTML, CSS, and Javascript.  Together these files are bundled (we use [Parcel](https://parceljs.org/)), zipped, and uploaded to the FanConnect TV Content Management System (CMS) as [Templates](./templates).  From there, customers are free to use these [Templates](./templates) on their IPTV network to display on TV screens throughout their venue.
 
 This guide is intended to help get you started building custom content for the FanConnect TV Platform.
 
 ![FanConnect TV](/assets/img/uga.png){: .tv }
 
-# Prerequisites
-
-{: .important-title }
-> Pro Tip: Use [asdf](https://asdf-vm.com/) to manage versions.
-
-1. Clone the [FanConnect Developer](https://github.com/FanConnect/developer) repository
-   
-2. Install Node version >= 16.17.1
-   
-3. Install Yarn version >= 1.22.19
-   
 ---
 
-Next, let's learn about FanConnect TV Templates!
+Before jumping right in, let's go through a few prequisites that you'll need to setup.
 
-[Templates](/templates){: .btn }
+[Prerequisites](/prereqs){: .btn }

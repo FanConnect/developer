@@ -7,18 +7,42 @@ nav_order: 3
 
 # Getting Started
 
-## 1. Start from the Boilerplate Template
+We have provided many [examples](./examples) that you can run.  Follow the steps below to run any of the provided [examples](./examples).
 
-If you're ready to get started we recommend cloning this repository and copying the [Javascript Boilerplate Template](https://github.com/fanconnect/developer/tree/main/examples/js/boilerplate) and/or the [Preact Boilerplate Template](https://github.com/fanconnect/developer/tree/main/examples/preact/boilerplate) to your own folder.
+## 1. In a shell, navigate to an example
 
-## 2. Write Code
+```shell
+cd examples/javascript/boilerplate
+```
 
-Once you have a folder for your custom Template, open it in your favorite editor (we prefer [VS Code](https://code.visualstudio.com/)).
+## 2. Run the example 
 
-To preview your Template see [FanConnect Template Preview](/templates#preview).
+```shell
+yarn watch
+```
+
+For more information, see [FanConnect Template Build](/templates#build).
+
+## 3. In a separate shell, navigate to the same example 
+
+```shell
+cd examples/javascript/boilerplate
+```
+
+## 4. Run preview
+
+{: .important-title }
+> This will only work after you install [FanConnect Preview NPM package](https://www.npmjs.com/package/@fanconnecttv/preview) as a development dependency.
+
+```shell
+yarn preview
+```
+
+For more information, see [FanConnect Template Preview](/templates#preview).
+
 
 ---
 
-Explore the example templates!
+Now that you know how to run a Template, let's deep dive into how they work!
 
-[Examples](/examples){: .btn }
+[Templates](/templates){: .btn }
