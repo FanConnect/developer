@@ -24,9 +24,17 @@ const updateQuote = async () => {
   quoteElement.classList.add('fade-in');
 };
 
-const run = async () => {
-  updateQuote();
-  setInterval(updateQuote, 20 * 1000);
-};
+FC.addEventListener('initialize', ({ options, device }) => {
+  // utils.scale(document.body, 1920, 1080);
 
-run();
+  // For testing for now
+  document.body.style.transform = `scaleX(${window.innerWidth / 1920}) scaleY(${
+    window.innerHeight / 1080
+  })`;
+
+  updateQuote();
+
+  setInterval(updateQuote, 20 * 1000);
+
+  FC.initialized();
+});

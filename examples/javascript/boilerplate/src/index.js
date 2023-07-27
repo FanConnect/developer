@@ -7,7 +7,7 @@ FC.addEventListener('initialize', ({ options, device }) => {
   })`;
 
   if (options.message != null && options.message != '') {
-    document.getElementById('message').src = options.message;
+    document.getElementById('message').innerHTML = options.message;
   }
 
   FC.initialized();

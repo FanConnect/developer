@@ -18,6 +18,6 @@ This guide is intended to help get you started building custom content for the F
 
 ---
 
-Before jumping right in, let's go through a few prequisites that you'll need to setup.
+Before jumping right in, let's go through a few prerequisites that you will need to setup.
 
 [Prerequisites](/prereqs){: .btn }

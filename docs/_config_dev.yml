@@ -1,1 +1,24 @@
 theme: just-the-docs
+title: FanConnect TV Template Developer Guide
+description: Learn how to build your own Template for the FanConnect TV platform.
+logo: '/assets/img/logo.png'
+search_enabled: false
+
+callouts:
+  warning:
+    color: red
+  highlight:
+    color: yellow
+  important:
+    color: blue
+
+# External navigation links
+nav_external_links:
+  - title: FanConnect TV Developer
+    url: https://github.com/FanConnect/developer
+
+  - title: FanConnect TV Website
+    url: https://fanconnect.tv
+
+  - title: FanConnect TV CMS
+    url: https://neo.fanconnect.tv
