@@ -4823,6 +4823,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pizza-hut-menu-js@workspace:examples/javascript/pizza-hut-menu":
+  version: 0.0.0-use.local
+  resolution: "pizza-hut-menu-js@workspace:examples/javascript/pizza-hut-menu"
+  dependencies:
+    "@fanconnecttv/preview": ^0.2.1
+    "@parcel/core": ^2.9.3
+    parcel: 2.9.3
+    parcel-reporter-clean-dist: ^1.0.4
+  languageName: unknown
+  linkType: soft
+
 "postcss-value-parser@npm:^4.2.0":
   version: 4.2.0
   resolution: "postcss-value-parser@npm:4.2.0"
