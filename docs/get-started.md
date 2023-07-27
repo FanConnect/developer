@@ -41,7 +41,7 @@ cd examples/javascript/boilerplate
 > This will only work after you install [FanConnect Preview NPM package](https://www.npmjs.com/package/@fanconnecttv/preview) as a development dependency.
 
 ```shell
-yarn preview
+yarn preview -o
 ```
 
 For more information, see [FanConnect Template Preview](/templates#preview).

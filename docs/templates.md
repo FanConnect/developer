@@ -132,10 +132,10 @@ Now run:
 
 ```shell
 # npm
-npx preview
+npx preview -o
 
 # yarn
-yarn preview
+yarn preview -o
 ```
 ---
 
