@@ -37,9 +37,6 @@ cd examples/javascript/boilerplate
 
 ## 5. Run preview
 
-{: .important-title }
-> This will only work after you install [FanConnect Preview NPM package](https://www.npmjs.com/package/@fanconnecttv/preview) as a development dependency.
-
 ```shell
 yarn preview -o
 ```

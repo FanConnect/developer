@@ -100,6 +100,21 @@ Template parameter groups provide a mechanism to logically group similar paramet
 | **label**     | Human-friendly label of this Template parameter group which is displayed in the FanConnect CMS.
 | **description**     | Description of this Template parameter group which is displayed in the FanConnect CMS as hover help.
 
+## Fonts
+It's very likely you will want to use custom fonts in your Template.  There are 2 ways we suggest using a custom font:
+
+1. CSS Import - Import a CSS NPM package:
+```css
+@import 'npm:industry/400.css';
+```
+2. CSS Font Face - Include the font file in your Template's folder, e.g. `assets`, and add it to your CSS:
+```css
+@font-face {
+  font-family: 'IndustryBlack';
+  src: url(../assets/fonts/Industry-Black.ttf);
+}
+```
+
 ## Life Cycle
 FanConnect Templates are loaded into a `iframe` by the FanConnect device software.  There are various phases during this process that are important to understand. 
 
@@ -115,30 +130,26 @@ We provide an [NPM package](https://www.npmjs.com/package/@fanconnecttv/preview)
 {: .important-title }
 > Node version >= 16.17.1 is required
 
-To preview your Template, we recommend installing the NPM package as a dev dependency: 
+To preview your Template, we recommend installing the NPM package as a dev dependency (we've already done this in the examples).  
 
 ```shell
-# npm
-npm install --save-dev @fanconnecttv/preview
-
-# yarn
 yarn add -D @fanconnecttv/preview
 ```
 
-Now run:
+Run preview:
 
 {: .important-title }
 > Template preview requires your Template to have been built.  See the [Build](#build) section for more information.
 
 ```shell
-# npm
-npx preview -o
-
-# yarn
 yarn preview -o
 ```
+
+## Sizing
+FanConnect TV provides Templates in many different shapes and sizes.  For the sake of simplicity, all of our example Templates are 1920x1080.  If your custom content needs to be a certain size you just need to set the `aspectRatio` in `config,json` to the desired size and update the CSS accordingly.
+
 ---
 
-Now that you understand how Templates work, run the examples!
+Now that you understand how Templates work, take a look at the examples!
 
 [Examples](/examples){: .btn }
