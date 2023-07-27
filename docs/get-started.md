@@ -15,7 +15,13 @@ We have provided many [examples](./examples) that you can run.  Follow the steps
 cd examples/javascript/boilerplate
 ```
 
-## 2. Run the example 
+## 2. Install dependencies 
+
+```shell
+yarn
+```
+
+## 3. Run the example 
 
 ```shell
 yarn watch
@@ -23,13 +29,13 @@ yarn watch
 
 For more information, see [FanConnect Template Build](/templates#build).
 
-## 3. In a separate shell, navigate to the same example 
+## 4. In a separate shell, navigate to the same example 
 
 ```shell
 cd examples/javascript/boilerplate
 ```
 
-## 4. Run preview
+## 5. Run preview
 
 {: .important-title }
 > This will only work after you install [FanConnect Preview NPM package](https://www.npmjs.com/package/@fanconnecttv/preview) as a development dependency.
