@@ -1702,6 +1702,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"boilerplate-preact@workspace:examples/preact/boilerplate":
+  version: 0.0.0-use.local
+  resolution: "boilerplate-preact@workspace:examples/preact/boilerplate"
+  dependencies:
+    "@fanconnecttv/preview": ^0.2.1
+    "@parcel/core": ^2.9.3
+    concurrently: ^8.2.0
+    parcel: 2.9.3
+    parcel-reporter-clean-dist: ^1.0.4
+    preact: ^10.16.0
+  languageName: unknown
+  linkType: soft
+
 "boolbase@npm:^1.0.0":
   version: 1.0.0
   resolution: "boolbase@npm:1.0.0"
@@ -4851,6 +4864,13 @@ __metadata:
     posthtml-parser: ^0.11.0
     posthtml-render: ^3.0.0
   checksum: 8b9b9d27bd2417d6b5b7d408000b23316c3c4d2a2d0ea62080a8fbec5654cc7376ea9d6317b290c030d616142144a8ca0a96ffe1e919493e3eac17442d362596
+  languageName: node
+  linkType: hard
+
+"preact@npm:^10.16.0":
+  version: 10.16.0
+  resolution: "preact@npm:10.16.0"
+  checksum: 47a91f47d583b68a4afe971a7f992c06547df6d637cadf56eb3b69fee1fb202659b199af37d0e1a90637385144cadd75aa40acdb4e125cc4b3155e2883c24c07
   languageName: node
   linkType: hard
 

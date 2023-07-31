@@ -1,0 +1,32 @@
+{
+  "name": "boilerplate-preact",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "author": "FanConnect",
+  "scripts": {
+    "build": "parcel build",
+    "clean": "rm -rf ./dist",
+    "dev": "concurrently 'yarn watch' 'yarn preview -o'",
+    "watch": "parcel watch --no-hmr",
+    "zip": "zip dist/${npm_package_name}.zip -x '*.zip' -x '*.map' -j -r dist"
+  },
+  "devDependencies": {
+    "@fanconnecttv/preview": "^0.2.1",
+    "@parcel/core": "^2.9.3",
+    "concurrently": "^8.2.0",
+    "parcel": "2.9.3",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "preact": "^10.16.0"
+  },
+  "targets": {
+    "default": {
+      "source": "src/index.html",
+      "distDir": "dist",
+      "publicUrl": "./"
+    },
+    "config": {
+      "source": "src/config.json",
+      "distDir": "dist"
+    }
+  }
+}

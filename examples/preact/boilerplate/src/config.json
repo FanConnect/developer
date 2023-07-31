@@ -1,0 +1,16 @@
+{
+  "aspectRatio": "1920/1080",
+  "defaultDuration": 20,
+  "durationReadonly": false,
+  "params": [
+    {
+      "label": "Message",
+      "name": "message",
+      "kind": "string",
+      "description": "Message to display on the screen",
+      "defaultValue": "Hello World",
+      "nullable": false
+    }
+  ],
+  "paramGroups": []
+}
