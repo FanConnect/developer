@@ -20,7 +20,7 @@ Preact is a lightweight JavaScript library for building user interfaces (UIs). I
 No, [asdf](https://asdf-vm.com/) isn't required but we strongly recommend using it to manage runtime versions in one place. 
 
 ## 5. What version of `node` is required?
-Node version >= 16.17.1 is required.  For more information about prerequisities, see the [Prerequisites](./prereqs) section
+Node version >= 16.17.0 is required.  For more information about prerequisities, see the [Prerequisites](./prereqs) section
 
 ## 6. Can I use a bundler other than `parcel`?
 It's possible you can use a bundler other than `parcel`, however we haven't tried them and we don't recommend it.

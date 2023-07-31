@@ -126,7 +126,7 @@ FanConnect Templates are loaded into a `iframe` by the FanConnect device softwar
 We provide an [NPM package](https://www.npmjs.com/package/@fanconnecttv/preview) that allows you to easily preview your Template as it's being developed.   
 
 {: .important-title }
-> Node version >= 16.17.1 is required
+> Node version >= 16.17.0 is required
 
 To preview your Template, we recommend installing the NPM package as a dev dependency (we've already done this in the examples).  
 
@@ -142,6 +142,12 @@ Run preview:
 ```shell
 yarn preview -o
 ```
+
+Alternatively, you can also run both `watch` and `preview`:
+```shell
+yarn dev
+```
+
 
 ## Sizing
 FanConnect TV provides Templates in many different shapes and sizes.  For the sake of simplicity, all of our example Templates are 1920x1080.  If your custom content needs to be a certain size you just need to set the `aspectRatio` in `config,json` to the desired size and update the CSS accordingly.

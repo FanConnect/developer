@@ -9,40 +9,25 @@ nav_order: 3
 
 We have provided many [examples](./examples) that you can run.  Follow the steps below to run any of the provided [examples](./examples).
 
-## 1. In a shell, navigate to an example
-
-```shell
-cd examples/javascript/boilerplate
-```
-
-## 2. Install dependencies 
+## 1. Install dependencies 
 
 ```shell
 yarn
 ```
 
-## 3. Run the example 
-
-```shell
-yarn watch
-```
-
-For more information, see [FanConnect Template Build](/templates#build).
-
-## 4. In a separate shell, navigate to the same example 
+## 2. In a shell, navigate to an example
 
 ```shell
 cd examples/javascript/boilerplate
 ```
 
-## 5. Run preview
+## 3. Run the example 
 
 ```shell
-yarn preview -o
+yarn dev
 ```
 
-For more information, see [FanConnect Template Preview](/templates#preview).
-
+This command uses [concurrently](https://github.com/open-cli-tools/concurrently#readme) to run both [`yarn watch`](/templates#build) and [`yarn preview`](/templates#preview).
 
 ---
 

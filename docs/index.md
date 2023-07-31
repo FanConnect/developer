@@ -8,7 +8,7 @@ nav_order: 1
 # Overview
 
 [FanConnect TV](https://fanconnect.tv) is a robust IPTV platform
-**purpose-built** for sports venues that includes professionaly designed, pre-built content.
+**purpose-built** for sports venues that includes professionally designed, pre-built content.
 
 Content on the FanConnect TV platform is a combination of HTML, CSS, and Javascript.  Together these files are bundled (we use [Parcel](https://parceljs.org/)), zipped, and uploaded to the FanConnect TV Content Management System (CMS) as [Templates](./templates).  From there, customers are free to use these [Templates](./templates) on their IPTV network to display on TV screens throughout their venue.
 

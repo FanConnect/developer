@@ -14,9 +14,9 @@ Before you get started developing custom templates, you will want to meet all th
 
 1. Clone the [FanConnect Developer](https://github.com/FanConnect/developer) repository
    
-2. Install Node version >= 16.17.1
+2. Install Node version >= 16.17.0
    
-3. Install Yarn version >= 1.22.19
+3. Install Yarn version >= 1.22.0
    
 ---
 
