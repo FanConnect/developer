@@ -20,6 +20,6 @@ Before you get started developing custom templates, you will want to meet all th
    
 ---
 
-Now that you've setup the prereqs, let's dive in and get started!
+Now that you've setup the prereqs, let's get started!
 
 [Get Started](/get-started){: .btn }
