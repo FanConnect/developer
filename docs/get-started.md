@@ -2,36 +2,35 @@
 layout: page
 title: 'Getting Started'
 permalink: /get-started
-nav_order: 2
+nav_order: 3
 ---
 
 # Getting Started
 
-## 1. Think of an App
+We have provided many [examples](./examples) that you can run.  Follow the steps below to run any of the provided [examples](./examples).
 
-Have an idea for an App?  Great!  Apps come in many different shapes and sizes, for example we have Apps for FanConnect TV that are landscape (16x9) and some that are portait.  
+## 1. Install dependencies 
 
-If you don't have an idea yet, that's ok!  You can always start from our example [Dad Joke App](https://github.com/fanconnect/developer/tree/main/examples/dad-joke-app) and customize it.
-
-## 2. Start from the Boilerplate App
-
-If you're ready to get started we recommended cloning this repository and copying the [Boilerplate App](https://github.com/fanconnect/developer/tree/main/examples/boilerplate-app) to your custom App directory.
-
-## 3. Write Code
-
-Once you have a directory for your custom App, bring it up in your favorite editor, [VS Code](https://code.visualstudio.com/) of course ;), and code away!
-
-To preview your changes you will need to run...
-
-```js
-yarn (first time only)
-yarn start
+```shell
+yarn
 ```
 
-...and open your browser to [http://localhost:1234/](http://localhost:1234/).
+## 2. In a shell, navigate to an example
+
+```shell
+cd examples/javascript/boilerplate
+```
+
+## 3. Run the example 
+
+```shell
+yarn dev
+```
+
+This command uses [concurrently](https://github.com/open-cli-tools/concurrently#readme) to run both [`yarn watch`](/templates#build) and [`yarn preview`](/templates#preview).
 
 ---
 
-Explore our example Apps as you begin your FanConnect TV App development journey!
+Now that you know how to run a Template, let's deep dive into how they work!
 
-[Example Apps](/example-apps){: .btn }
+[Templates](/templates){: .btn }
