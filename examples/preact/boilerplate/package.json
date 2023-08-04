@@ -12,11 +12,18 @@
   },
   "devDependencies": {
     "@fanconnecttv/preview": "^0.2.1",
+    "@fanconnecttv/template-sdk": "^0.1.1",
     "@parcel/core": "^2.9.3",
     "concurrently": "^8.2.0",
     "parcel": "2.9.3",
     "parcel-reporter-clean-dist": "^1.0.4",
     "preact": "^10.16.0"
+  },
+  "alias": {
+    "react": "preact/compat",
+    "react-dom/test-utils": "preact/test-utils",
+    "react-dom": "preact/compat",
+    "react/jsx-runtime": "preact/jsx-runtime"
   },
   "targets": {
     "default": {
