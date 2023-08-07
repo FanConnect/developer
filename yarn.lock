@@ -107,10 +107,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fanconnecttv/template-sdk@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "@fanconnecttv/template-sdk@npm:0.1.1"
-  checksum: be8b08e507ac9b9cd5d096d599bd8184d65664d140d8f9491ccd285da920e536023953ec766a04a5bc28fd86ea5cfec2b88ea034b6e494a1e251a48149fc8b11
+"@fanconnecttv/template-sdk@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "@fanconnecttv/template-sdk@npm:0.2.1"
+  bin:
+    typegen: ./bin/typegen.mjs
+  checksum: 9fc7ac986db69d94d483d42f323e4eb708a84159d01a7db54b6d4ed2e65638d28e36d7032024a2e20c68b0edc3a93a45b0678649e067dcf2fde40e08c8e943d3
   languageName: node
   linkType: hard
 
@@ -1693,7 +1695,7 @@ __metadata:
   resolution: "boilerplate-preact@workspace:examples/preact/boilerplate"
   dependencies:
     "@fanconnecttv/preview": ^0.2.1
-    "@fanconnecttv/template-sdk": ^0.1.1
+    "@fanconnecttv/template-sdk": ^0.2.1
     "@parcel/core": ^2.9.3
     concurrently: ^8.2.0
     parcel: 2.9.3
