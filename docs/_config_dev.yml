@@ -17,6 +17,12 @@ nav_external_links:
   - title: FanConnect TV Developer
     url: https://github.com/FanConnect/developer
 
+  - title: FanConnect Template SDK
+    url: https://www.npmjs.com/package/@fanconnecttv/template-sdk
+
+  - title: FanConnect Template Preview
+    url: https://www.npmjs.com/package/@fanconnecttv/preview
+
   - title: FanConnect TV Website
     url: https://fanconnect.tv
 

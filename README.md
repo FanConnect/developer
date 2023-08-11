@@ -11,6 +11,11 @@ We've also provided [example Apps](https://github.com/fanconnect/developer/tree/
 [boilerplate App](https://github.com/fanconnect/developer/tree/main/examples/boilerplate-app) to
 help get your started.
 
+## NPM Packages
+
+- [Template SDK](https://www.npmjs.com/package/@fanconnecttv/template-sdk)
+- [Template Preview](https://www.npmjs.com/package/@fanconnecttv/preview)
+  
 ## Questions & Help
 
 Feel free to use [Github Issues](https://github.com/fanconnect/developer/issues) to ask a question,
