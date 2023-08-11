@@ -150,7 +150,9 @@ yarn dev
 
 ## SDK
 
-We provide an [NPM package](https://www.npmjs.com/package/@fanconnecttv/sdk) that provides you with functionality that you will likely need when developing your custom Template.
+We provide an [NPM package](https://www.npmjs.com/package/@fanconnecttv/template-sdk) that provides you with functionality that you will likely need when developing your custom Template.
+
+For detailed information, please read the [Template SDK](./template-sdk/) docs.
 
 ## Sizing
 FanConnect TV provides Templates in many different shapes and sizes.  For the sake of simplicity, all of our example Templates are 1920x1080.  If your custom content needs to be a certain size you just need to set the `aspectRatio` in `config,json` to the desired size and update the CSS accordingly.
